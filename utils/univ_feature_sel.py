@@ -13,7 +13,7 @@ from classes.config_state import ConfigState
 
 import logging
 import numpy as np
-from scipy.stats import pearsonr
+from scipy.stats import pearsonr 
 
 # Pipeline auxiliary functions
 from generic_functions import find_vec_entries_that_contain

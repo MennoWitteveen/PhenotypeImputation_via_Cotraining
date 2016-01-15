@@ -23,7 +23,7 @@ from utils.univ_feature_sel import *
 from utils.random_forest import *
 
 # -----------------------------------------------------------------------------
-# Main - new code 
+# Main -
 # -----------------------------------------------------------------------------
 def run_pipeline(config_file):
     '''

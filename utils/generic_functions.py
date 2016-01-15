@@ -1,7 +1,7 @@
 #-----------------------------------------------------------------------------
 # Generic functions, used by other modules
 # 
-# Authors: Menno Witteveen
+# Authors: Menno Witteveen 
 #          Damian Roqueiro
 #-----------------------------------------------------------------------------
 
