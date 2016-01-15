@@ -4,7 +4,7 @@ class Dataset:
     '''
     A class object that contains the entire dataset.
 
-    Characteristics of the dataset:
+    Characteristics of the dataset: 
     genotype : SNP calls recoded as dominant [0, 1, 2]. No missing values
                are allowed.
     covariate: The clinical data. The genotype and covariate data do not 
