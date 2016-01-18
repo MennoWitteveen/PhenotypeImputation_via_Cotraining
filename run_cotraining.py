@@ -23,7 +23,7 @@ from utils.univ_feature_sel import *
 from utils.random_forest import *
 
 # -----------------------------------------------------------------------------
-# Main - 
+# Main
 # -----------------------------------------------------------------------------
 def run_pipeline(config_file):
     '''
@@ -106,5 +106,5 @@ def run_pipeline(config_file):
         logging.info("Skipping task: random_forest")
         
 if __name__ in "__main__":
-   # TODO check command line arguments. Add syntax/usage output
-   run_pipeline(sys.argv[1])
+    # TODO check command line arguments. Add syntax/usage output
+    run_pipeline(sys.argv[1])
