@@ -23,7 +23,7 @@ from utils.univ_feature_sel import *
 from utils.random_forest import *
 
 # -----------------------------------------------------------------------------
-# Main 
+# Main
 # -----------------------------------------------------------------------------
 def run_pipeline(config_file):
     '''
@@ -54,7 +54,7 @@ def run_pipeline(config_file):
     
     # -------------------------------------------------------------------------
     # Create the log file
-    logging.basicConfig(filename="%s/exec.log" % output_dir, filemode='w', 
+    logging.basicConfig(filename="%s/exec.log" % output_dir, filemode='w',
                         level=logging.INFO,
                         format="[%(asctime)s] %(message)s", datefmt="%Y-%m-%d %H:%M:%S")
 
